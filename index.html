@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop box</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    
+    <div id="container">
+        <div id="heading-box">
+            <h1>Upload file</h1>
+            <p>Click to upload or drag and drop</p>
+        </div>
+        <div id="drop-area">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <p>No file uploaded yet!</p>
+        </div>
+
+        <input type="file" hidden >
+        <div id="under-drop-area">
+            <div>Supported format: All files</div><div>Max file size: 10MB</div>
+        </div>
+
+        <div id="btns-box">
+            <a href="#" id="link"><i class="fa-regular fa-circle-question"></i><span>Help</span></a>
+            <!-- <div id="link"><i class="fa-regular fa-circle-question"></i><span>Help</span></div> -->
+            <div id="inner-btns-box">
+                <button class="btns" id="c-btn">Cancel</button>
+                <button class="btns" id="s-btn">Save</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
